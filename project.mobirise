@@ -40,7 +40,7 @@
     "favicon": false,
     "noImageResize": "",
     "versionFirst": "4.3.0",
-    "uniqCompNum": 50,
+    "uniqCompNum": 52,
     "versionPublish": "4.12.3",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -524,6 +524,29 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "HTMLCode": "<a class=\"fx-widget\" data-widget=\"coronastatus\" data-lang=\"en\" data-base-url=\"https://www.fxempire.com\" data-url=\"//www.fxempire.com\" href=\"https://www.fxempire.com\" rel=\"nofollow\" > </a> <script async charset=\"utf-8\" src=\"https://widgets.fxempire.com/widget.js\" ></script>",
+            "hideOnPublish": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "<a class=\"fx-widget\" data-widget=\"coronastatus\" data-lang=\"en\" data-base-url=\"https://www.fxempire.com\" data-url=\"//www.fxempire.com\" href=\"https://www.fxempire.com\" rel=\"nofollow\" > </a> <script async charset=\"utf-8\" src=\"https://widgets.fxempire.com/widget.js\" ></script>",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-1f"
         },
         {
           "alias": false,
