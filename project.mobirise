@@ -569,6 +569,12 @@
             },
             ".mbr-section-subtitle": {
               "font-style": "italic"
+            },
+            "H3": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#232323"
             }
           },
           "_name": "header9",
