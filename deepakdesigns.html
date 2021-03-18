@@ -48,30 +48,48 @@
 </script>
 <!-- /Analytics -->
 
-  <SCRIPT LANGUAGE="JavaScript">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-function clickIE() {if (document.all) {alert(message);
-return false;
-}
-}
-function clickNS(e) {
-if (document.layers||(document.getElementById&&!document.all)) {
-if (e.which==2||e.which==3) {
-alert(message);
-return false;
-}
-}
-}
-if (document.layers) {
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS;
-}
-else{document.onmouseup=clickNS;
-document.oncontextmenu=clickIE;
-}
-document.oncontextmenu=new Function("return false")
-// --> 
-</script> 
+  <script>
+	window.oncontextmenu = function () {
+				return false;
+			}
+			$(document).keydown(function (event) {
+				if (event.keyCode == 123) {
+					return false;
+				}
+				else if ((event.ctrlKey && event.shiftKey && event.keyCode == 73) || (event.ctrlKey && event.shiftKey && event.keyCode == 74)) {
+					return false;
+				}
+			});
+		</script>
+
+<script language="JavaScript">
+
+//////////F12 disable code////////////////////////
+    document.onkeypress = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+           //alert('No F-12');
+            return false;
+        }
+    }
+    document.onmousedown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            //alert('No F-keys');
+            return false;
+        }
+    }
+document.onkeydown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            //alert('No F-keys');
+            return false;
+        }
+    }
+/////////////////////end///////////////////////
+</script>
 
 
 
